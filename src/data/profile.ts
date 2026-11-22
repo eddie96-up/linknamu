@@ -13,14 +13,12 @@ export type Profile = {
 };
 
 // 여기만 수정하면 페이지 내용이 바뀝니다.
-// TODO: 아래는 보여주기용 더미값입니다. 실제 이름·소개·사진·링크로 교체하세요.
 export const profile: Profile = {
-  name: "김클로",
-  bio: "세계 최강 바이브코더",
-  image: "/profile.svg", // 실제 사진은 public/ 에 넣고 경로만 바꾸면 됩니다 (예: /me.jpg)
+  name: "김에디",
+  bio: "코린이(코인아님)의 이모저모",
+  image: "https://placehold.co/150x150/orange/white", // 임시 사진. 실제 사진은 public/ 에 넣고 경로만 바꾸면 됩니다 (예: /me.jpg)
   links: [
-    { id: "github", title: "GitHub", url: "https://github.com/" },
-    { id: "linkedin", title: "LinkedIn", url: "https://www.linkedin.com/" },
-    { id: "blog", title: "Blog", url: "https://velog.io/" },
+    { id: "github", title: "GitHub", url: "https://github.com/eddie96-up" },
+    { id: "blog", title: "Blog", url: "https://blog.naver.com/kimm9875" },
   ],
 };
